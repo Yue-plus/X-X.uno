@@ -1,0 +1,49 @@
+body {
+    color: white;
+    background-color: black;
+    margin: 3vw;
+}
+
+h1 {
+    color: #00ffa2;
+    text-shadow: #00ffa2 0 0 3.8vw;
+    font-size: 16vw;
+    white-space: nowrap;
+    margin-top: 3vh;
+    margin-bottom: 0;
+    font-family: "Century Gothic", sans-serif;
+}
+
+h2 {
+    font-size: 6vw;
+    text-shadow: white 0 0 2.8vw;
+    font-family: "Cascadia Code", sans-serif;
+}
+
+a {
+    color: #ff00f0;
+    font-weight: bold;
+    font-size: 2.3vw;
+    text-decoration: none;
+    text-shadow: #ff00f0 0 0 2.3vw;
+}
+
+a:hover {
+    color: #ffff21;
+    text-shadow: #ffff21 0 0 2.3vw;
+}
+
+@media screen and (orientation: portrait) {
+    h1 {
+        font-size: 20vw;
+        margin-top: 25vh;
+    }
+
+    h2 {
+        font-size: 4.2vw;
+    }
+
+    a {
+        font-size: 3.2vw;
+    }
+}
